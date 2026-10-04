@@ -63,9 +63,11 @@ JOIN Tariffs t ON u.TariffID = t.TariffID
 LEFT JOIN Bills b ON u.UsageID = b.UsageID;
 ```
 The query returned 8 rows showing full customer details, meter info, consumption, pricing, and bill status — everything connected and working correctly.
-Step 6 — Created the ER Diagram
- 
+Step 6 — Created the ER Diagram 
 I used Reverse Engineer in MySQL Workbench to automatically pull in my database structure. It generated the full Entity Relationship Diagram showing:
+
+https://github.com/Shumaila1987/Electricity-Billing-Management-System/blob/main/ER_Diagram.png
+
  
 - All 5 tables with every column and data type
 ​
