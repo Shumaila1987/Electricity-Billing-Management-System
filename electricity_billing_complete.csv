@@ -1,0 +1,9 @@
+CustomerID,FullName,Address,City,Postcode,Phone,Email,MeterType,InstallationDate,MeterStatus,TariffName,PricePerUnit,Month,UnitsConsumed,BillDate,DueDate,TotalAmount,BillStatus
+C001,"Ahmed Ali","12 Park Road",Blackburn,"BB1 2FG",07700123456,ahmed@email.com,Digital,2024-01-15,Active,"Standard Domestic",0.18,2024-03,185,2024-04-01,2024-04-15,33.30,Paid
+C001,"Ahmed Ali","12 Park Road",Blackburn,"BB1 2FG",07700123456,ahmed@email.com,Digital,2024-01-15,Active,"Standard Domestic",0.18,2024-04,210,NULL,NULL,NULL,NULL
+C002,"Sarah Khan","45 Oak Street",Blackburn,"BB2 5RT",07700987654,sarah@email.com,Digital,2024-02-20,Active,"Standard Domestic",0.18,2024-03,240,2024-04-01,2024-04-15,43.20,Paid
+C002,"Sarah Khan","45 Oak Street",Blackburn,"BB2 5RT",07700987654,sarah@email.com,Digital,2024-02-20,Active,"Standard Domestic",0.18,2024-04,195,NULL,NULL,NULL,NULL
+C003,"John Smith","8 King Avenue",Darwen,"BB3 9PL",07700456789,john@email.com,Analog,2023-11-10,Active,"Economy 7",0.14,2024-03,310,2024-04-01,2024-04-15,43.40,Unpaid
+C003,"John Smith","8 King Avenue",Darwen,"BB3 9PL",07700456789,john@email.com,Analog,2023-11-10,Active,"Economy 7",0.14,2024-04,280,NULL,NULL,NULL,NULL
+C004,"Fatima Begum","22 Cedar Grove",Blackburn,"BB1 8TY",07700234567,fatima@email.com,Digital,2024-03-05,Active,"Standard Domestic",0.18,2024-03,152,2024-04-01,2024-04-15,27.36,Paid
+C005,"Ali Raza","10 High Street",Darwen,"BB3 6XZ",07700765432,ali@email.com,Smart,2024-01-28,Active,Premium,0.22,2024-03,420,2024-04-01,2024-04-15,92.40,Unpaid
