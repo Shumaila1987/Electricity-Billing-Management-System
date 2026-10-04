@@ -61,6 +61,7 @@ JOIN Meters m ON c.CustomerID = m.CustomerID
 JOIN `Usage` u ON m.MeterID = u.MeterID
 JOIN Tariffs t ON u.TariffID = t.TariffID
 LEFT JOIN Bills b ON u.UsageID = b.UsageID;
+```
 The query returned 8 rows showing full customer details, meter info, consumption, pricing, and bill status — everything connected and working correctly.
 Step 6 — Created the ER Diagram
  
